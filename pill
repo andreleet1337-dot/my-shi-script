@@ -1,0 +1,463 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Frame_3 = Instance.new("Frame")
+local TP1 = Instance.new("TextButton")
+local TP2 = Instance.new("TextButton")
+local TP2_2 = Instance.new("TextButton")
+local TP2_3 = Instance.new("TextButton")
+local TP2_4 = Instance.new("TextButton")
+local TP1_2 = Instance.new("TextButton")
+local TP1_3 = Instance.new("TextButton")
+local TP1_4 = Instance.new("TextButton")
+local TP1_5 = Instance.new("TextButton")
+local TP1_6 = Instance.new("TextButton")
+local TP1_7 = Instance.new("TextButton")
+local TP1_8 = Instance.new("TextButton")
+local TP1_9 = Instance.new("TextButton")
+local TP2_5 = Instance.new("TextButton")
+local TP2_6 = Instance.new("TextButton")
+local TP2_7 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderSizePixel = 2
+Frame.Position = UDim2.new(0.00207708566, 0, 0.575282335, 0)
+Frame.Size = UDim2.new(0.38270548, 0, 0.418360412, 0)
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.Position = UDim2.new(-0.0022371707, 0, 0, 0)
+Frame_2.Size = UDim2.new(1, 0, 0.149797574, 0)
+
+TextLabel.Parent = Frame_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.275784761, 0, 0, 0)
+TextLabel.Size = UDim2.new(0.447427303, 0, 1, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Lua's Pilgrammed exploit"
+TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 32.000
+TextLabel.TextWrapped = true
+
+Frame_3.Parent = Frame
+Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0.0156599898, 0, 0.186234817, 0)
+Frame_3.Size = UDim2.new(0.966442943, 0, 0.773279369, 0)
+
+TP1.Name = "TP1"
+TP1.Parent = Frame_3
+TP1.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP1.BorderSizePixel = 0
+TP1.Position = UDim2.new(0.0185185187, 0, 0.0418848172, 0)
+TP1.Size = UDim2.new(0.194444448, 0, 0.178010479, 0)
+TP1.Font = Enum.Font.SourceSans
+TP1.Text = "TP To Catacombs (bed)"
+TP1.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP1.TextScaled = true
+TP1.TextSize = 14.000
+TP1.TextWrapped = true
+
+TP2.Name = "TP2"
+TP2.Parent = Frame_3
+TP2.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP2.BorderSizePixel = 0
+TP2.Position = UDim2.new(0.243055552, 0, 0.0418848172, 0)
+TP2.Size = UDim2.new(0.194444448, 0, 0.178010479, 0)
+TP2.Font = Enum.Font.SourceSans
+TP2.Text = "TP To CloudCity (bed)"
+TP2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP2.TextScaled = true
+TP2.TextSize = 14.000
+TP2.TextWrapped = true
+
+TP2_2.Name = "TP2"
+TP2_2.Parent = Frame_3
+TP2_2.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP2_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP2_2.BorderSizePixel = 0
+TP2_2.Position = UDim2.new(0.465277791, 0, 0.0418848172, 0)
+TP2_2.Size = UDim2.new(0.194444448, 0, 0.178010479, 0)
+TP2_2.Font = Enum.Font.SourceSans
+TP2_2.Text = "TP To Desert (bed)"
+TP2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP2_2.TextScaled = true
+TP2_2.TextSize = 14.000
+TP2_2.TextWrapped = true
+
+TP2_3.Name = "TP2"
+TP2_3.Parent = TP2_2
+TP2_3.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP2_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP2_3.BorderSizePixel = 0
+TP2_3.Position = UDim2.new(1.13194442, 0, -0.0169390514, 0)
+TP2_3.Size = UDim2.new(1, 0, 1, 0)
+TP2_3.Font = Enum.Font.SourceSans
+TP2_3.Text = "TP To Big Bay (mirror)"
+TP2_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP2_3.TextScaled = true
+TP2_3.TextSize = 14.000
+TP2_3.TextWrapped = true
+
+TP2_4.Name = "TP2"
+TP2_4.Parent = TP2_3
+TP2_4.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP2_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP2_4.BorderSizePixel = 0
+TP2_4.Position = UDim2.new(-3.43948412, 0, 1.21835506, 0)
+TP2_4.Size = UDim2.new(1, 0, 1, 0)
+TP2_4.Font = Enum.Font.SourceSans
+TP2_4.Text = "TP To Chaos Hideout (mirror)"
+TP2_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP2_4.TextScaled = true
+TP2_4.TextSize = 14.000
+TP2_4.TextWrapped = true
+
+TP1_2.Name = "TP1"
+TP1_2.Parent = Frame_3
+TP1_2.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP1_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP1_2.BorderSizePixel = 0
+TP1_2.Position = UDim2.new(0.243055552, 0, 0.251308888, 0)
+TP1_2.Size = UDim2.new(0.194444448, 0, 0.178010479, 0)
+TP1_2.Font = Enum.Font.SourceSans
+TP1_2.Text = "TP To Condemned Passage (mirror)"
+TP1_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP1_2.TextScaled = true
+TP1_2.TextSize = 14.000
+TP1_2.TextWrapped = true
+
+TP1_3.Name = "TP1"
+TP1_3.Parent = TP1_2
+TP1_3.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP1_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP1_3.BorderSizePixel = 0
+TP1_3.Position = UDim2.new(1.13591278, 0, 0.016014548, 0)
+TP1_3.Size = UDim2.new(1, 0, 1, 0)
+TP1_3.Font = Enum.Font.SourceSans
+TP1_3.Text = "TP To Darkgreen Retreat (mirror)"
+TP1_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP1_3.TextScaled = true
+TP1_3.TextSize = 14.000
+TP1_3.TextWrapped = true
+
+TP1_4.Name = "TP1"
+TP1_4.Parent = TP1_3
+TP1_4.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP1_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP1_4.BorderSizePixel = 0
+TP1_4.Position = UDim2.new(1.13591278, 0, 0.016014548, 0)
+TP1_4.Size = UDim2.new(1, 0, 1, 0)
+TP1_4.Font = Enum.Font.SourceSans
+TP1_4.Text = "TP To Elite Barracks (mirror)"
+TP1_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP1_4.TextScaled = true
+TP1_4.TextSize = 14.000
+TP1_4.TextWrapped = true
+
+TP1_5.Name = "TP1"
+TP1_5.Parent = TP1_4
+TP1_5.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP1_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP1_5.BorderSizePixel = 0
+TP1_5.Position = UDim2.new(-3.43551564, 0, 1.28072047, 0)
+TP1_5.Size = UDim2.new(1, 0, 1, 0)
+TP1_5.Font = Enum.Font.SourceSans
+TP1_5.Text = "TP To Forgotten Village (mirror)"
+TP1_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP1_5.TextScaled = true
+TP1_5.TextSize = 14.000
+TP1_5.TextWrapped = true
+
+TP1_6.Name = "TP1"
+TP1_6.Parent = TP1_5
+TP1_6.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP1_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP1_6.BorderSizePixel = 0
+TP1_6.Position = UDim2.new(1.13591278, 0, 0.016014548, 0)
+TP1_6.Size = UDim2.new(1, 0, 1, 0)
+TP1_6.Font = Enum.Font.SourceSans
+TP1_6.Text = "TP To Mountain (mirror)"
+TP1_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP1_6.TextScaled = true
+TP1_6.TextSize = 14.000
+TP1_6.TextWrapped = true
+
+TP1_7.Name = "TP1"
+TP1_7.Parent = TP1_6
+TP1_7.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP1_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP1_7.BorderSizePixel = 0
+TP1_7.Position = UDim2.new(1.13591278, 0, 0.016014548, 0)
+TP1_7.Size = UDim2.new(1, 0, 1, 0)
+TP1_7.Font = Enum.Font.SourceSans
+TP1_7.Text = "TP To Observatory (mirror)"
+TP1_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP1_7.TextScaled = true
+TP1_7.TextSize = 14.000
+TP1_7.TextWrapped = true
+
+TP1_8.Name = "TP1"
+TP1_8.Parent = TP1_7
+TP1_8.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP1_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP1_8.BorderSizePixel = 0
+TP1_8.Position = UDim2.new(1.15972209, 0, -0.0133972168, 0)
+TP1_8.Size = UDim2.new(1, 0, 1, 0)
+TP1_8.Font = Enum.Font.SourceSans
+TP1_8.Text = "TP To Prairie (mirror)"
+TP1_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP1_8.TextScaled = true
+TP1_8.TextSize = 14.000
+TP1_8.TextWrapped = true
+
+TP1_9.Name = "TP1"
+TP1_9.Parent = TP1_8
+TP1_9.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP1_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP1_9.BorderSizePixel = 0
+TP1_9.Position = UDim2.new(-3.42361116, 0, 1.33954394, 0)
+TP1_9.Size = UDim2.new(1, 0, 1, 0)
+TP1_9.Font = Enum.Font.SourceSans
+TP1_9.Text = "TP To Savannah (mirror)"
+TP1_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP1_9.TextScaled = true
+TP1_9.TextSize = 14.000
+TP1_9.TextWrapped = true
+
+TP2_5.Name = "TP2"
+TP2_5.Parent = TP1_9
+TP2_5.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP2_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP2_5.BorderSizePixel = 0
+TP2_5.Position = UDim2.new(1.13194442, 0, -0.0169390514, 0)
+TP2_5.Size = UDim2.new(1, 0, 1, 0)
+TP2_5.Font = Enum.Font.SourceSans
+TP2_5.Text = "TP To Swamp  (mirror)"
+TP2_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP2_5.TextScaled = true
+TP2_5.TextSize = 14.000
+TP2_5.TextWrapped = true
+
+TP2_6.Name = "TP2"
+TP2_6.Parent = TP2_5
+TP2_6.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP2_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP2_6.BorderSizePixel = 0
+TP2_6.Position = UDim2.new(1.13194442, 0, -0.0169390514, 0)
+TP2_6.Size = UDim2.new(1, 0, 1, 0)
+TP2_6.Font = Enum.Font.SourceSans
+TP2_6.Text = "TP To Sweetberry Catacombs (mirror)"
+TP2_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP2_6.TextScaled = true
+TP2_6.TextSize = 14.000
+TP2_6.TextWrapped = true
+
+TP2_7.Name = "TP2"
+TP2_7.Parent = TP2_6
+TP2_7.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP2_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP2_7.BorderSizePixel = 0
+TP2_7.Position = UDim2.new(1.13194442, 0, -0.0169390514, 0)
+TP2_7.Size = UDim2.new(1, 0, 1, 0)
+TP2_7.Font = Enum.Font.SourceSans
+TP2_7.Text = "TP To Volcano (mirror)"
+TP2_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP2_7.TextScaled = true
+TP2_7.TextSize = 14.000
+TP2_7.TextWrapped = true
+
+-- Scripts:
+
+local function WEIAFV_fake_script() -- TP1.Script 
+	local script = Instance.new('Script', TP1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Beds.CatacombsBed.Part.Position)
+	end)
+end
+coroutine.wrap(WEIAFV_fake_script)()
+local function UXCX_fake_script() -- TP2.Script 
+	local script = Instance.new('Script', TP2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Beds.CloudBed.Part.Position)
+	end)
+end
+coroutine.wrap(UXCX_fake_script)()
+local function YKFZ_fake_script() -- TP2_2.Script 
+	local script = Instance.new('Script', TP2_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Beds.DesertBed1.Part.Position)
+	end)
+end
+coroutine.wrap(YKFZ_fake_script)()
+local function RJBCIGC_fake_script() -- TP2_3.Script 
+	local script = Instance.new('Script', TP2_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Big Bay"].Part.Position)
+	end)
+end
+coroutine.wrap(RJBCIGC_fake_script)()
+local function SADTAG_fake_script() -- TP2_4.Script 
+	local script = Instance.new('Script', TP2_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Chaos Hideout"].Part.Position)
+	end)
+end
+coroutine.wrap(SADTAG_fake_script)()
+local function IQFLMAT_fake_script() -- TP1_2.Script 
+	local script = Instance.new('Script', TP1_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Condemned Passage"].Part.Position)
+	end)
+end
+coroutine.wrap(IQFLMAT_fake_script)()
+local function IAXOTAN_fake_script() -- TP1_3.Script 
+	local script = Instance.new('Script', TP1_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Darkgreen Retreat"].Part.Position)
+	end)
+end
+coroutine.wrap(IAXOTAN_fake_script)()
+local function UMOT_fake_script() -- TP1_4.Script 
+	local script = Instance.new('Script', TP1_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Elite Barracks"].Part.Position)
+	end)
+end
+coroutine.wrap(UMOT_fake_script)()
+local function SMMXFK_fake_script() -- TP1_5.Script 
+	local script = Instance.new('Script', TP1_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Forgotten Village"].Part.Position)
+	end)
+end
+coroutine.wrap(SMMXFK_fake_script)()
+local function QPCPJE_fake_script() -- TP1_6.Script 
+	local script = Instance.new('Script', TP1_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Mountain"].Part.Position)
+	end)
+end
+coroutine.wrap(QPCPJE_fake_script)()
+local function UWPTVD_fake_script() -- TP1_7.Script 
+	local script = Instance.new('Script', TP1_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Observatory"].Part.Position)
+	end)
+end
+coroutine.wrap(UWPTVD_fake_script)()
+local function EZXW_fake_script() -- TP1_8.Script 
+	local script = Instance.new('Script', TP1_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Prairie"].Part.Position)
+	end)
+end
+coroutine.wrap(EZXW_fake_script)()
+local function ZLYXG_fake_script() -- TP1_9.Script 
+	local script = Instance.new('Script', TP1_9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Savannah"].Part.Position)
+	end)
+end
+coroutine.wrap(ZLYXG_fake_script)()
+local function RDRMCX_fake_script() -- TP2_5.Script 
+	local script = Instance.new('Script', TP2_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Swamp"].Part.Position)
+	end)
+end
+coroutine.wrap(RDRMCX_fake_script)()
+local function IVLJIZJ_fake_script() -- TP2_6.Script 
+	local script = Instance.new('Script', TP2_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Sweetberry Catacombs"].Part.Position)
+	end)
+end
+coroutine.wrap(IVLJIZJ_fake_script)()
+local function WQOZCX_fake_script() -- TP2_7.Script 
+	local script = Instance.new('Script', TP2_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Volcano"].Part.Position)
+	end)
+end
+coroutine.wrap(WQOZCX_fake_script)()
+local function IEKG_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	-- Services
+	local UIS = game:GetService("UserInputService")
+	
+	-- Variables
+	local UI = script.Parent -- The GUI element to make draggable
+	local Dragging = false
+	local DragStart, StartPos
+	
+	-- Functions
+	local function Update(input)
+		local Delta = input.Position - DragStart
+		UI.Position = UDim2.new(
+			StartPos.X.Scale, StartPos.X.Offset + Delta.X,
+			StartPos.Y.Scale, StartPos.Y.Offset + Delta.Y
+		)
+	end
+	
+	-- Connections
+	UI.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			Dragging = true
+			DragStart = input.Position
+			StartPos = UI.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					Dragging = false
+				end
+			end)
+		end
+	end)
+	
+	UI.InputChanged:Connect(function(input)
+		if Dragging and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+			Update(input)
+		end
+	end)
+end
+coroutine.wrap(IEKG_fake_script)()
