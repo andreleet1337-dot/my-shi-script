@@ -1,0 +1,972 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Frame1 = Instance.new("Frame")
+local TP1 = Instance.new("TextButton")
+local TP2 = Instance.new("TextButton")
+local TP2_2 = Instance.new("TextButton")
+local TP2_3 = Instance.new("TextButton")
+local TP2_4 = Instance.new("TextButton")
+local TP1_2 = Instance.new("TextButton")
+local TP1_3 = Instance.new("TextButton")
+local TP1_4 = Instance.new("TextButton")
+local TP1_5 = Instance.new("TextButton")
+local TP1_6 = Instance.new("TextButton")
+local TP1_7 = Instance.new("TextButton")
+local TP1_8 = Instance.new("TextButton")
+local TP1_9 = Instance.new("TextButton")
+local TP2_5 = Instance.new("TextButton")
+local TP2_6 = Instance.new("TextButton")
+local TP2_7 = Instance.new("TextButton")
+local Frame2 = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TP3 = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local TextButton_10 = Instance.new("TextButton")
+local TextButton_11 = Instance.new("TextButton")
+local TextButton_12 = Instance.new("TextButton")
+local TextButton_13 = Instance.new("TextButton")
+local TextButton_14 = Instance.new("TextButton")
+local TextButton_15 = Instance.new("TextButton")
+local LocaesTPs = Instance.new("TextButton")
+local BossTPs = Instance.new("TextButton")
+local Rifts = Instance.new("TextButton")
+local Frame3 = Instance.new("Frame")
+local Rift = Instance.new("TextButton")
+local TextButton_16 = Instance.new("TextButton")
+local TextButton_17 = Instance.new("TextButton")
+local TextButton_18 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderSizePixel = 2
+Frame.Position = UDim2.new(-0.00049141905, 357, 0.492287815, -46)
+Frame.Size = UDim2.new(0.38270548, 0, 0.418360412, 0)
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.Position = UDim2.new(-0.0022371707, 0, 0, 0)
+Frame_2.Size = UDim2.new(1, 0, 0.149797574, 0)
+
+TextLabel.Parent = Frame_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.275784761, 0, 0, 0)
+TextLabel.Size = UDim2.new(0.453225762, 0, 1, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Lua's 7x4x2x1 Pilgrammed exploit"
+TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 26.000
+TextLabel.TextWrapped = true
+
+Frame1.Name = "Frame1"
+Frame1.Parent = Frame
+Frame1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame1.BorderSizePixel = 0
+Frame1.Position = UDim2.new(0.0134228189, 0, 0.182186231, 0)
+Frame1.Size = UDim2.new(0.966442943, 0, 0.773279369, 0)
+
+TP1.Name = "TP1"
+TP1.Parent = Frame1
+TP1.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP1.BorderSizePixel = 0
+TP1.Position = UDim2.new(0.0185185187, 0, 0.0418848172, 0)
+TP1.Size = UDim2.new(0.194444448, 0, 0.178010479, 0)
+TP1.Font = Enum.Font.SourceSans
+TP1.Text = "TP To Catacombs (bed)"
+TP1.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP1.TextScaled = true
+TP1.TextSize = 14.000
+TP1.TextWrapped = true
+
+TP2.Name = "TP2"
+TP2.Parent = Frame1
+TP2.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP2.BorderSizePixel = 0
+TP2.Position = UDim2.new(0.243055552, 0, 0.0418848172, 0)
+TP2.Size = UDim2.new(0.194444448, 0, 0.178010479, 0)
+TP2.Font = Enum.Font.SourceSans
+TP2.Text = "TP To CloudCity (bed)"
+TP2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP2.TextScaled = true
+TP2.TextSize = 14.000
+TP2.TextWrapped = true
+
+TP2_2.Name = "TP2"
+TP2_2.Parent = Frame1
+TP2_2.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP2_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP2_2.BorderSizePixel = 0
+TP2_2.Position = UDim2.new(0.465277791, 0, 0.0418848172, 0)
+TP2_2.Size = UDim2.new(0.194444448, 0, 0.178010479, 0)
+TP2_2.Font = Enum.Font.SourceSans
+TP2_2.Text = "TP To Desert (bed)"
+TP2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP2_2.TextScaled = true
+TP2_2.TextSize = 14.000
+TP2_2.TextWrapped = true
+
+TP2_3.Name = "TP2"
+TP2_3.Parent = TP2_2
+TP2_3.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP2_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP2_3.BorderSizePixel = 0
+TP2_3.Position = UDim2.new(1.13194442, 0, -0.0169390514, 0)
+TP2_3.Size = UDim2.new(1, 0, 1, 0)
+TP2_3.Font = Enum.Font.SourceSans
+TP2_3.Text = "TP To Big Bay (mirror)"
+TP2_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP2_3.TextScaled = true
+TP2_3.TextSize = 14.000
+TP2_3.TextWrapped = true
+
+TP2_4.Name = "TP2"
+TP2_4.Parent = TP2_3
+TP2_4.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP2_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP2_4.BorderSizePixel = 0
+TP2_4.Position = UDim2.new(-3.43948412, 0, 1.21835506, 0)
+TP2_4.Size = UDim2.new(1, 0, 1, 0)
+TP2_4.Font = Enum.Font.SourceSans
+TP2_4.Text = "TP To Chaos Hideout (mirror)"
+TP2_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP2_4.TextScaled = true
+TP2_4.TextSize = 14.000
+TP2_4.TextWrapped = true
+
+TP1_2.Name = "TP1"
+TP1_2.Parent = Frame1
+TP1_2.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP1_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP1_2.BorderSizePixel = 0
+TP1_2.Position = UDim2.new(0.243055552, 0, 0.251308888, 0)
+TP1_2.Size = UDim2.new(0.194444448, 0, 0.178010479, 0)
+TP1_2.Font = Enum.Font.SourceSans
+TP1_2.Text = "TP To Condemned Passage (mirror)"
+TP1_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP1_2.TextScaled = true
+TP1_2.TextSize = 14.000
+TP1_2.TextWrapped = true
+
+TP1_3.Name = "TP1"
+TP1_3.Parent = TP1_2
+TP1_3.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP1_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP1_3.BorderSizePixel = 0
+TP1_3.Position = UDim2.new(1.13591278, 0, 0.016014548, 0)
+TP1_3.Size = UDim2.new(1, 0, 1, 0)
+TP1_3.Font = Enum.Font.SourceSans
+TP1_3.Text = "TP To Darkgreen Retreat (mirror)"
+TP1_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP1_3.TextScaled = true
+TP1_3.TextSize = 14.000
+TP1_3.TextWrapped = true
+
+TP1_4.Name = "TP1"
+TP1_4.Parent = TP1_3
+TP1_4.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP1_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP1_4.BorderSizePixel = 0
+TP1_4.Position = UDim2.new(1.13591278, 0, 0.016014548, 0)
+TP1_4.Size = UDim2.new(1, 0, 1, 0)
+TP1_4.Font = Enum.Font.SourceSans
+TP1_4.Text = "TP To Elite Barracks (mirror)"
+TP1_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP1_4.TextScaled = true
+TP1_4.TextSize = 14.000
+TP1_4.TextWrapped = true
+
+TP1_5.Name = "TP1"
+TP1_5.Parent = TP1_4
+TP1_5.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP1_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP1_5.BorderSizePixel = 0
+TP1_5.Position = UDim2.new(-3.43551564, 0, 1.28072047, 0)
+TP1_5.Size = UDim2.new(1, 0, 1, 0)
+TP1_5.Font = Enum.Font.SourceSans
+TP1_5.Text = "TP To Forgotten Village (mirror)"
+TP1_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP1_5.TextScaled = true
+TP1_5.TextSize = 14.000
+TP1_5.TextWrapped = true
+
+TP1_6.Name = "TP1"
+TP1_6.Parent = TP1_5
+TP1_6.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP1_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP1_6.BorderSizePixel = 0
+TP1_6.Position = UDim2.new(1.15972233, 0, -0.0133972168, 0)
+TP1_6.Size = UDim2.new(1, 0, 1, 0)
+TP1_6.Font = Enum.Font.SourceSans
+TP1_6.Text = "TP To Mountain (mirror)"
+TP1_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP1_6.TextScaled = true
+TP1_6.TextSize = 14.000
+TP1_6.TextWrapped = true
+
+TP1_7.Name = "TP1"
+TP1_7.Parent = TP1_6
+TP1_7.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP1_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP1_7.BorderSizePixel = 0
+TP1_7.Position = UDim2.new(1.13591278, 0, 0.016014548, 0)
+TP1_7.Size = UDim2.new(1, 0, 1, 0)
+TP1_7.Font = Enum.Font.SourceSans
+TP1_7.Text = "TP To Observatory (mirror)"
+TP1_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP1_7.TextScaled = true
+TP1_7.TextSize = 14.000
+TP1_7.TextWrapped = true
+
+TP1_8.Name = "TP1"
+TP1_8.Parent = TP1_7
+TP1_8.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP1_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP1_8.BorderSizePixel = 0
+TP1_8.Position = UDim2.new(1.15972209, 0, -0.0133972168, 0)
+TP1_8.Size = UDim2.new(1, 0, 1, 0)
+TP1_8.Font = Enum.Font.SourceSans
+TP1_8.Text = "TP To Prairie (mirror)"
+TP1_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP1_8.TextScaled = true
+TP1_8.TextSize = 14.000
+TP1_8.TextWrapped = true
+
+TP1_9.Name = "TP1"
+TP1_9.Parent = TP1_8
+TP1_9.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP1_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP1_9.BorderSizePixel = 0
+TP1_9.Position = UDim2.new(-3.42361116, 0, 1.33954394, 0)
+TP1_9.Size = UDim2.new(1, 0, 1, 0)
+TP1_9.Font = Enum.Font.SourceSans
+TP1_9.Text = "TP To Savannah (mirror)"
+TP1_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP1_9.TextScaled = true
+TP1_9.TextSize = 14.000
+TP1_9.TextWrapped = true
+
+TP2_5.Name = "TP2"
+TP2_5.Parent = TP1_9
+TP2_5.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP2_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP2_5.BorderSizePixel = 0
+TP2_5.Position = UDim2.new(1.13194442, 0, -0.0169390514, 0)
+TP2_5.Size = UDim2.new(1, 0, 1, 0)
+TP2_5.Font = Enum.Font.SourceSans
+TP2_5.Text = "TP To Swamp  (mirror)"
+TP2_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP2_5.TextScaled = true
+TP2_5.TextSize = 14.000
+TP2_5.TextWrapped = true
+
+TP2_6.Name = "TP2"
+TP2_6.Parent = TP2_5
+TP2_6.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP2_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP2_6.BorderSizePixel = 0
+TP2_6.Position = UDim2.new(1.13194442, 0, -0.0169390514, 0)
+TP2_6.Size = UDim2.new(1, 0, 1, 0)
+TP2_6.Font = Enum.Font.SourceSans
+TP2_6.Text = "TP To Sweetberry Catacombs (mirror)"
+TP2_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP2_6.TextScaled = true
+TP2_6.TextSize = 14.000
+TP2_6.TextWrapped = true
+
+TP2_7.Name = "TP2"
+TP2_7.Parent = TP2_6
+TP2_7.BackgroundColor3 = Color3.fromRGB(206, 206, 206)
+TP2_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP2_7.BorderSizePixel = 0
+TP2_7.Position = UDim2.new(1.13194442, 0, -0.0169390514, 0)
+TP2_7.Size = UDim2.new(1, 0, 1, 0)
+TP2_7.Font = Enum.Font.SourceSans
+TP2_7.Text = "TP To Volcano (mirror)"
+TP2_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP2_7.TextScaled = true
+TP2_7.TextSize = 14.000
+TP2_7.TextWrapped = true
+
+Frame2.Name = "Frame2"
+Frame2.Parent = Frame
+Frame2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame2.BorderSizePixel = 0
+Frame2.Position = UDim2.new(0.0178970918, 0, 0.182186231, 0)
+Frame2.Size = UDim2.new(0.964205801, 0, 0.773279369, 0)
+
+TextButton.Parent = Frame2
+TextButton.BackgroundColor3 = Color3.fromRGB(182, 182, 182)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.016241299, 0, 0.038869489, 0)
+TextButton.Size = UDim2.new(0.211136892, 0, 0.178010479, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "King Sandpod"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+TP3.Name = "TP3"
+TP3.Parent = TextButton
+TP3.BackgroundColor3 = Color3.fromRGB(182, 182, 182)
+TP3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP3.BorderSizePixel = 0
+TP3.Position = UDim2.new(1.11282218, 0, -0.00874956883, 0)
+TP3.Size = UDim2.new(1, 0, 1, 0)
+TP3.Font = Enum.Font.SourceSans
+TP3.Text = "Mondo Squid"
+TP3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TP3.TextSize = 14.000
+
+TextButton_2.Parent = TP3
+TextButton_2.BackgroundColor3 = Color3.fromRGB(182, 182, 182)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(1.1348002, 0, 0.015059527, 0)
+TextButton_2.Size = UDim2.new(1, 0, 0.970588207, 0)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Thief King"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+TextButton_3.Parent = TextButton_2
+TextButton_3.BackgroundColor3 = Color3.fromRGB(182, 182, 182)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(1.1348002, 0, -0.00875022169, 0)
+TextButton_3.Size = UDim2.new(1, 0, 1.030303, 0)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Pop Off Pirate"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+TextButton_4.Parent = TextButton_3
+TextButton_4.BackgroundColor3 = Color3.fromRGB(182, 182, 182)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(-3.38168335, 0, 1.49124956, 0)
+TextButton_4.Size = UDim2.new(1, 0, 1, 0)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Kai guy.. :skull:"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+
+TextButton_5.Parent = TextButton_4
+TextButton_5.BackgroundColor3 = Color3.fromRGB(182, 182, 182)
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(1.1348002, 0, -0.00875022169, 0)
+TextButton_5.Size = UDim2.new(1, 0, 1, 0)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "PigFace"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
+
+TextButton_6.Parent = TextButton_5
+TextButton_6.BackgroundColor3 = Color3.fromRGB(182, 182, 182)
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(1.1348002, 0, -0.00875022169, 0)
+TextButton_6.Size = UDim2.new(1, 0, 1, 0)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "Viper"
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextSize = 14.000
+
+TextButton_7.Parent = TextButton_6
+TextButton_7.BackgroundColor3 = Color3.fromRGB(182, 182, 182)
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(1.1348002, 0, -0.00875022169, 0)
+TextButton_7.Size = UDim2.new(1, 0, 1, 0)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "Magma Turtle"
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextSize = 14.000
+
+TextButton_8.Parent = TextButton_7
+TextButton_8.BackgroundColor3 = Color3.fromRGB(182, 182, 182)
+TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Position = UDim2.new(-3.40366149, 0, 1.34419072, 0)
+TextButton_8.Size = UDim2.new(1, 0, 1, 0)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "Old Fart"
+TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.TextSize = 14.000
+
+TextButton_9.Parent = TextButton_8
+TextButton_9.BackgroundColor3 = Color3.fromRGB(182, 182, 182)
+TextButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.BorderSizePixel = 0
+TextButton_9.Position = UDim2.new(1.1348002, 0, -0.00875022169, 0)
+TextButton_9.Size = UDim2.new(1, 0, 1, 0)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "Democan"
+TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.TextSize = 14.000
+
+TextButton_10.Parent = TextButton_9
+TextButton_10.BackgroundColor3 = Color3.fromRGB(182, 182, 182)
+TextButton_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.BorderSizePixel = 0
+TextButton_10.Position = UDim2.new(1.1348002, 0, -0.00875022169, 0)
+TextButton_10.Size = UDim2.new(1, 0, 1, 0)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "N Boss"
+TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.TextSize = 14.000
+
+TextButton_11.Parent = TextButton_10
+TextButton_11.BackgroundColor3 = Color3.fromRGB(182, 182, 182)
+TextButton_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.BorderSizePixel = 0
+TextButton_11.Position = UDim2.new(1.12381113, 0, -0.00875046663, 0)
+TextButton_11.Size = UDim2.new(1, 0, 1, 0)
+TextButton_11.Font = Enum.Font.SourceSans
+TextButton_11.Text = "Cata"
+TextButton_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.TextSize = 14.000
+
+TextButton_12.Parent = TextButton_11
+TextButton_12.BackgroundColor3 = Color3.fromRGB(182, 182, 182)
+TextButton_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.BorderSizePixel = 0
+TextButton_12.Position = UDim2.new(-3.40366149, 0, 1.40301418, 0)
+TextButton_12.Size = UDim2.new(1, 0, 1, 0)
+TextButton_12.Font = Enum.Font.SourceSans
+TextButton_12.Text = "Treelad"
+TextButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.TextSize = 14.000
+
+TextButton_13.Parent = TextButton_12
+TextButton_13.BackgroundColor3 = Color3.fromRGB(182, 182, 182)
+TextButton_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.BorderSizePixel = 0
+TextButton_13.Position = UDim2.new(1.1348002, 0, -0.00875022169, 0)
+TextButton_13.Size = UDim2.new(1, 0, 1, 0)
+TextButton_13.Font = Enum.Font.SourceSans
+TextButton_13.Text = "The Petris"
+TextButton_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.TextSize = 14.000
+
+TextButton_14.Parent = TextButton_13
+TextButton_14.BackgroundColor3 = Color3.fromRGB(182, 182, 182)
+TextButton_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.BorderSizePixel = 0
+TextButton_14.Position = UDim2.new(1.1348002, 0, -0.00875022169, 0)
+TextButton_14.Size = UDim2.new(1, 0, 1, 0)
+TextButton_14.Font = Enum.Font.SourceSans
+TextButton_14.Text = "Bigfish"
+TextButton_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.TextSize = 14.000
+
+TextButton_15.Parent = TextButton
+TextButton_15.BackgroundColor3 = Color3.fromRGB(182, 182, 182)
+TextButton_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.BorderSizePixel = 0
+TextButton_15.Position = UDim2.new(3.40373778, 0, 4.16417837, 0)
+TextButton_15.Size = UDim2.new(1, 0, 1, 0)
+TextButton_15.Font = Enum.Font.SourceSans
+TextButton_15.Text = "Em breve.."
+TextButton_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.TextSize = 14.000
+
+LocaesTPs.Name = "Locações TPs"
+LocaesTPs.Parent = Frame
+LocaesTPs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LocaesTPs.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LocaesTPs.BorderSizePixel = 0
+LocaesTPs.Position = UDim2.new(0.0178970918, 0, -0.251012146, 0)
+LocaesTPs.Size = UDim2.new(0.152777776, 0, 0.250227869, 0)
+LocaesTPs.Style = Enum.ButtonStyle.RobloxButtonDefault
+LocaesTPs.Font = Enum.Font.SourceSans
+LocaesTPs.Text = "Locações TPs"
+LocaesTPs.TextColor3 = Color3.fromRGB(255, 255, 255)
+LocaesTPs.TextScaled = true
+LocaesTPs.TextSize = 14.000
+LocaesTPs.TextWrapped = true
+
+BossTPs.Name = "Boss TPs"
+BossTPs.Parent = Frame
+BossTPs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BossTPs.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BossTPs.BorderSizePixel = 0
+BossTPs.Position = UDim2.new(0.192243204, 0, -0.253704131, 0)
+BossTPs.Size = UDim2.new(0.156599551, 0, 0.251012146, 0)
+BossTPs.Style = Enum.ButtonStyle.RobloxButtonDefault
+BossTPs.Font = Enum.Font.SourceSans
+BossTPs.Text = "Boss TPs"
+BossTPs.TextColor3 = Color3.fromRGB(255, 255, 255)
+BossTPs.TextSize = 14.000
+
+Rifts.Name = "Rifts"
+Rifts.Parent = Frame
+Rifts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Rifts.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rifts.BorderSizePixel = 0
+Rifts.Position = UDim2.new(0.373601794, 0, -0.251012146, 0)
+Rifts.Size = UDim2.new(0.152125284, 0, 0.246963561, 0)
+Rifts.Style = Enum.ButtonStyle.RobloxButtonDefault
+Rifts.Font = Enum.Font.SourceSans
+Rifts.Text = "Rifts"
+Rifts.TextColor3 = Color3.fromRGB(255, 255, 255)
+Rifts.TextSize = 14.000
+
+Frame3.Name = "Frame3"
+Frame3.Parent = Frame
+Frame3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame3.BorderSizePixel = 0
+Frame3.Position = UDim2.new(0.0134228189, 0, 0.182186231, 0)
+Frame3.Size = UDim2.new(0.966442943, 0, 0.769230783, 0)
+Frame3.Visible = false
+
+Rift.Name = "Rift"
+Rift.Parent = Frame3
+Rift.BackgroundColor3 = Color3.fromRGB(184, 184, 184)
+Rift.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rift.BorderSizePixel = 0
+Rift.Position = UDim2.new(0.0185185187, 0, 0.0736842081, 0)
+Rift.Size = UDim2.new(0.391203701, 0, 0.263157904, 0)
+Rift.Font = Enum.Font.SourceSans
+Rift.Text = "Rift 1 (Deep Desert)"
+Rift.TextColor3 = Color3.fromRGB(0, 0, 0)
+Rift.TextSize = 14.000
+Rift.TextWrapped = true
+
+TextButton_16.Parent = Frame3
+TextButton_16.BackgroundColor3 = Color3.fromRGB(184, 184, 184)
+TextButton_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_16.BorderSizePixel = 0
+TextButton_16.Position = UDim2.new(0.585648119, 0, 0.0736842081, 0)
+TextButton_16.Size = UDim2.new(0.391203701, 0, 0.263157904, 0)
+TextButton_16.Font = Enum.Font.SourceSans
+TextButton_16.Text = "Rift 2 (Mountain Basin)"
+TextButton_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_16.TextSize = 14.000
+
+TextButton_17.Parent = Frame3
+TextButton_17.BackgroundColor3 = Color3.fromRGB(184, 184, 184)
+TextButton_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_17.BorderSizePixel = 0
+TextButton_17.Position = UDim2.new(0.0185185187, 0, 0.684210539, 0)
+TextButton_17.Size = UDim2.new(0.391203701, 0, 0.263157904, 0)
+TextButton_17.Font = Enum.Font.SourceSans
+TextButton_17.Text = "Rift 3 (PatchLand Grove)"
+TextButton_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_17.TextSize = 14.000
+
+TextButton_18.Parent = TextButton_17
+TextButton_18.BackgroundColor3 = Color3.fromRGB(184, 184, 184)
+TextButton_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_18.BorderSizePixel = 0
+TextButton_18.Position = UDim2.new(1.44455409, 0, -0.0463159196, 0)
+TextButton_18.Size = UDim2.new(1, 0, 1, 0)
+TextButton_18.Font = Enum.Font.SourceSans
+TextButton_18.Text = "Rift 4 (The Backdoor)"
+TextButton_18.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_18.TextSize = 14.000
+
+-- Scripts:
+
+local function KSNAZ_fake_script() -- TP1.Script 
+	local script = Instance.new('Script', TP1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Beds.CatacombsBed.Part.Position)
+	end)
+end
+coroutine.wrap(KSNAZ_fake_script)()
+local function KCIEP_fake_script() -- TP2.Script 
+	local script = Instance.new('Script', TP2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Beds.CloudBed.Part.Position)
+	end)
+end
+coroutine.wrap(KCIEP_fake_script)()
+local function OSNN_fake_script() -- TP2_2.Script 
+	local script = Instance.new('Script', TP2_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Beds.DesertBed1.Part.Position)
+	end)
+end
+coroutine.wrap(OSNN_fake_script)()
+local function VBWFO_fake_script() -- TP2_3.Script 
+	local script = Instance.new('Script', TP2_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Big Bay"].Part.Position)
+	end)
+end
+coroutine.wrap(VBWFO_fake_script)()
+local function MNYM_fake_script() -- TP2_4.Script 
+	local script = Instance.new('Script', TP2_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Chaos Hideout"].Part.Position)
+	end)
+end
+coroutine.wrap(MNYM_fake_script)()
+local function LJYO_fake_script() -- TP1_2.Script 
+	local script = Instance.new('Script', TP1_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Condemned Passage"].Part.Position)
+	end)
+end
+coroutine.wrap(LJYO_fake_script)()
+local function TUEQ_fake_script() -- TP1_3.Script 
+	local script = Instance.new('Script', TP1_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mobs["King Sandpod"].Part.Position)
+	end)
+end
+coroutine.wrap(TUEQ_fake_script)()
+local function RWAE_fake_script() -- TP1_4.Script 
+	local script = Instance.new('Script', TP1_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Elite Barracks"].Part.Position)
+	end)
+end
+coroutine.wrap(RWAE_fake_script)()
+local function FCGOOM_fake_script() -- TP1_5.Script 
+	local script = Instance.new('Script', TP1_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Forgotten Village"].Part.Position)
+	end)
+end
+coroutine.wrap(FCGOOM_fake_script)()
+local function QWBFHUK_fake_script() -- TP1_6.Script 
+	local script = Instance.new('Script', TP1_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Mountain"].Part.Position)
+	end)
+end
+coroutine.wrap(QWBFHUK_fake_script)()
+local function JGLET_fake_script() -- TP1_7.Script 
+	local script = Instance.new('Script', TP1_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Observatory"].Part.Position)
+	end)
+end
+coroutine.wrap(JGLET_fake_script)()
+local function XMKAH_fake_script() -- TP1_8.Script 
+	local script = Instance.new('Script', TP1_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Prairie"].Part.Position)
+	end)
+end
+coroutine.wrap(XMKAH_fake_script)()
+local function UKYY_fake_script() -- TP1_9.Script 
+	local script = Instance.new('Script', TP1_9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Savannah"].Part.Position)
+	end)
+end
+coroutine.wrap(UKYY_fake_script)()
+local function JMANIOP_fake_script() -- TP2_5.Script 
+	local script = Instance.new('Script', TP2_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Swamp"].Part.Position)
+	end)
+end
+coroutine.wrap(JMANIOP_fake_script)()
+local function FLNYN_fake_script() -- TP2_6.Script 
+	local script = Instance.new('Script', TP2_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Sweetberry Catacombs"].Part.Position)
+	end)
+end
+coroutine.wrap(FLNYN_fake_script)()
+local function YWJKA_fake_script() -- TP2_7.Script 
+	local script = Instance.new('Script', TP2_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Mirrors["Volcano"].Part.Position)
+	end)
+end
+coroutine.wrap(YWJKA_fake_script)()
+local function ULCR_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	-- Services
+	local UIS = game:GetService("UserInputService")
+	
+	-- Variables
+	local UI = script.Parent -- The GUI element to make draggable
+	local Dragging = false
+	local DragStart, StartPos
+	
+	-- Functions
+	local function Update(input)
+		local Delta = input.Position - DragStart
+		UI.Position = UDim2.new(
+			StartPos.X.Scale, StartPos.X.Offset + Delta.X,
+			StartPos.Y.Scale, StartPos.Y.Offset + Delta.Y
+		)
+	end
+	
+	-- Connections
+	UI.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			Dragging = true
+			DragStart = input.Position
+			StartPos = UI.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					Dragging = false
+				end
+			end)
+		end
+	end)
+	
+	UI.InputChanged:Connect(function(input)
+		if Dragging and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+			Update(input)
+		end
+	end)
+end
+coroutine.wrap(ULCR_fake_script)()
+local function CZWI_fake_script() -- TextButton_14.Script 
+	local script = Instance.new('Script', TextButton_14)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-880.488708, -26.4981346, -2735.75244, -0.906016469, 0, -0.42324239, 0, 1, 0, 0.42324239, 0, -0.906016469)
+	end)
+end
+coroutine.wrap(CZWI_fake_script)()
+local function XOSNGL_fake_script() -- TextButton_13.Script 
+	local script = Instance.new('Script', TextButton_13)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3163.46582, -24.1810036, -4389.22412, 0.904267848, -0, -0.426965624, 0, 1, -0, 0.426965624, 0, 0.904267848)
+	end)
+end
+coroutine.wrap(XOSNGL_fake_script)()
+local function WWOUN_fake_script() -- TextButton_12.Script 
+	local script = Instance.new('Script', TextButton_12)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4839, -283.5, 471, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+	end)
+end
+coroutine.wrap(WWOUN_fake_script)()
+local function DUOWZC_fake_script() -- TextButton_11.Script 
+	local script = Instance.new('Script', TextButton_11)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5350, -401.5, 309, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+	end)
+end
+coroutine.wrap(DUOWZC_fake_script)()
+local function RPOOX_fake_script() -- TextButton_10.Script 
+	local script = Instance.new('Script', TextButton_10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(294.999969, 114.945702, -3816.64014, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+	end)
+end
+coroutine.wrap(RPOOX_fake_script)()
+local function XPJE_fake_script() -- TextButton_9.Script 
+	local script = Instance.new('Script', TextButton_9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Map.Pitfall.Position)
+	end)
+end
+coroutine.wrap(XPJE_fake_script)()
+local function AALD_fake_script() -- TextButton_8.Script 
+	local script = Instance.new('Script', TextButton_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7374.5708, -464, 935.879028, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+	end)
+end
+coroutine.wrap(AALD_fake_script)()
+local function MZOI_fake_script() -- TextButton_7.Script 
+	local script = Instance.new('Script', TextButton_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(517, 41.5, -3552, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+	end)
+end
+coroutine.wrap(MZOI_fake_script)()
+local function ZHANYR_fake_script() -- TextButton_6.Script 
+	local script = Instance.new('Script', TextButton_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(479, -104.5, -2352, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+	end)
+end
+coroutine.wrap(ZHANYR_fake_script)()
+local function AHZZ_fake_script() -- TextButton_5.Script 
+	local script = Instance.new('Script', TextButton_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1241.2373, 180.056442, -940.023926, -0.836940765, -0.0471971929, -0.545254469, -0.00504823215, 0.996897995, -0.0785426199, 0.54727006, -0.0629829615, -0.834582806)
+	end)
+end
+coroutine.wrap(AHZZ_fake_script)()
+local function MFZZCGO_fake_script() -- TextButton_4.Script 
+	local script = Instance.new('Script', TextButton_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1725.04846, 180.75, 218.94371, -0.0191953182, 0, 0.999815822, 0, 1, 0, -0.999815822, 0, -0.0191953182)
+	end)
+end
+coroutine.wrap(MFZZCGO_fake_script)()
+local function AZEKDTS_fake_script() -- TextButton_3.Script 
+	local script = Instance.new('Script', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2046.8479, 13.232502, -261.376221, 0.707134247, -0, -0.707079291, 0, 1, -0, 0.707079291, 0, 0.707134247)
+	end)
+end
+coroutine.wrap(AZEKDTS_fake_script)()
+local function QELYX_fake_script() -- TextButton_2.Script 
+	local script = Instance.new('Script', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(692.5, -10, 198, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+	end)
+end
+coroutine.wrap(QELYX_fake_script)()
+local function CXEWSM_fake_script() -- TP3.Script 
+	local script = Instance.new('Script', TP3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2003.13293, 80.0751953, 886.443176, 0.925356269, -0, -0.379098654, 0, 1, -0, 0.379098654, 0, 0.925356269)
+	end)
+end
+coroutine.wrap(CXEWSM_fake_script)()
+local function LNAERH_fake_script() -- TextButton.Script 
+	local script = Instance.new('Script', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(160.289169, -20.5000095, -2172.17456, -0.999759674, 0, 0.0219244752, 0, 1, 0, -0.0219244752, 0, -0.999759674)
+	end)
+end
+coroutine.wrap(LNAERH_fake_script)()
+local function PTFAYC_fake_script() -- TextButton_15.Script 
+	local script = Instance.new('Script', TextButton_15)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-880.488708, -26.4981346, -2735.75244, -0.906016469, 0, -0.42324239, 0, 1, 0, 0.42324239, 0, -0.906016469)
+	end)
+end
+coroutine.wrap(PTFAYC_fake_script)()
+local function BJIO_fake_script() -- LocaesTPs.LocalScript 
+	local script = Instance.new('LocalScript', LocaesTPs)
+
+	local button = script.Parent
+	local Frame1 = script.Parent.Parent.Frame1
+	local Frame2 = script.Parent.Parent.Frame2
+	local Frame3 = script.Parent.Parent.Frame3
+	button.MouseButton1Click:Connect(function()
+		Frame1.Visible = true
+		Frame2.Visible = false
+		Frame3.Visible = false
+	end)
+end
+coroutine.wrap(BJIO_fake_script)()
+local function FWQJJEG_fake_script() -- BossTPs.LocalScript 
+	local script = Instance.new('LocalScript', BossTPs)
+
+	local button = script.Parent
+	local Frame1 = script.Parent.Parent.Frame1
+	local Frame2 = script.Parent.Parent.Frame2
+	local Frame3 = script.Parent.Parent.Frame3
+	button.MouseButton1Click:Connect(function()
+		Frame1.Visible = false
+		Frame2.Visible = true
+		Frame3.Visible = false
+	end)
+end
+coroutine.wrap(FWQJJEG_fake_script)()
+local function HFFIZC_fake_script() -- Rifts.LocalScript 
+	local script = Instance.new('LocalScript', Rifts)
+
+	local button = script.Parent
+	local Frame1 = script.Parent.Parent.Frame1
+	local Frame2 = script.Parent.Parent.Frame2
+	local Frame3 = script.Parent.Parent.Frame3
+	button.MouseButton1Click:Connect(function()
+		Frame1.Visible = false
+		Frame2.Visible = false
+		Frame3.Visible = true
+	end)
+end
+coroutine.wrap(HFFIZC_fake_script)()
+local function PJGVZAO_fake_script() -- Rift.Script 
+	local script = Instance.new('Script', Rift)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-141.010941, -16.2072735, -2113.64575, 0.727829814, -0, -0.685757756, 0, 1, -0, 0.685757756, 0, 0.727829814)
+	end)
+end
+coroutine.wrap(PJGVZAO_fake_script)()
+local function ALYI_fake_script() -- TextButton_16.Script 
+	local script = Instance.new('Script', TextButton_16)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1422.78796, -25.4000015, 896.416687, 0.727829814, -0, -0.685757756, 0, 1, -0, 0.685757756, 0, 0.727829814)
+	end)
+end
+coroutine.wrap(ALYI_fake_script)()
+local function WJLVHUE_fake_script() -- TextButton_18.Script 
+	local script = Instance.new('Script', TextButton_18)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2014.52783, 79, -5162.01465, 0.727829814, -0, -0.685757756, 0, 1, -0, 0.685757756, 0, 0.727829814)
+	end)
+end
+coroutine.wrap(WJLVHUE_fake_script)()
+local function MXPM_fake_script() -- TextButton_17.Script 
+	local script = Instance.new('Script', TextButton_17)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2241.5, 33.6999969, 1316.12964, 0.727829814, -0, -0.685757756, 0, 1, -0, 0.685757756, 0, 0.727829814)
+	end)
+end
+coroutine.wrap(MXPM_fake_script)()
